@@ -148,5 +148,5 @@ search.addEventListener("keypress",(e)=>{
 goHome.addEventListener("click",()=>{
     mainBox3.classList.add("inactive");
     mainBox1.classList.remove("inactive");  
- 8fee44e6bc7d09a62e1598aef9be30c35d7e3c67
+ 
 })
