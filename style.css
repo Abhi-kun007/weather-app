@@ -59,14 +59,35 @@ body{
 }
 
 .start,.homeBtn{
-    height: 40px;
+     height: 40px;
     width: 150px;
+
     border-radius: 20px;
+
     background-color: #DDB130;
+
     color: black;
+
     border: none;
     outline: none;
+
     cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+.start:hover,.homeBtn:hover{
+
+    background: #f4c842;
+
+    transform: scale(1.08);
+
+    box-shadow:
+        0 0 15px rgba(244,200,66,0.6),
+        0 0 30px rgba(244,200,66,0.3);
+}
+.start:active,
+.homeBtn:active{
+    transform: scale(0.95);
 }
 
 .searchBox{
